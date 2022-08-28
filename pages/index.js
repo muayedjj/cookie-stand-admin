@@ -1,5 +1,5 @@
-import Head from 'next/head'
 import { useState } from 'react'
+import { Title, Header } from '../components'
 
 
 export default function Stand() {
@@ -17,17 +17,9 @@ export default function Stand() {
   return (
     <div>
       
-      <Head>
-        <title>Cookie Stand Admin Panel</title>
-        <meta name="description" content="Dashboard" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Title/>
       
-      <header className="p-4 mb-5 shadow bg-violet-800 md:px-6 md:py-8">
-        <h1 className="text-3xl font-bold text-gray-300">
-          Cookie Stand Admin
-        </h1>        
-      </header>
+      <Header/>
       
       <main className='flex flex-col'>
         <div>
